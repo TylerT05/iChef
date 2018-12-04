@@ -3,9 +3,14 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/orange_icon_color</item>
+        <item name="colorPrimaryDark">@color/orange_icon_border_color</item>
         <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:windowBackground">@color/orange_icon_border_color</item>
+        <item name="android:itemBackground">@color/orange_icon_border_color</item>
+        <item name="android:textSize">12pt</item>
+
     </style>
 
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">

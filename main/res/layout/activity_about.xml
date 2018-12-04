@@ -4,12 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About">
+    tools:context=".AboutActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:text="Write something about this app, our group, and reference resources"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="    iChef is a simple recipe app that allows aspiring home cooks to effectively store and look up recipes. It allows the user to create and save recipes that they have thought up on their own and make them available to the public. As a user of the app, you will have features such as rating recipes that have been posted by others, search for existing recipes, search by ingredient(s), search random recipes, comment on existing recipes, along with many other exciting features to come to give it a more social aspect as well. It is our goal to make this app like having a cookbook in your phone to make your experience with being a home cook more enjoyable."
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="10dp" />
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>

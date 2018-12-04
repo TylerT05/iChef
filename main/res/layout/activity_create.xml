@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="10dp"
+                    android:text="Title:" />
+
+                <EditText
+                    android:id="@+id/title_content_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_margin="10dp"
+                    android:lineSpacingExtra="10dp"
+                    android:layout_weight="1"
+                    android:hint="Name your recipe"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ingredients_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_margin="10dp"
+                android:text="Ingredients:" />
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/name_content"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:ems="10"-->
+                    <!--android:hint="Name"-->
+                    <!--android:inputType="textPersonName" />-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/remove_ingredient"-->
+                    <!--style="@android:style/Widget.CompoundButton.RadioButton"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:background="@android:drawable/presence_busy" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/add_ingredient"-->
+                <!--style="@android:style/Widget.CompoundButton.RadioButton"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@android:drawable/radiobutton_off_background"-->
+                <!--app:srcCompat="@android:drawable/ic_input_add" />-->
+
+            <EditText
+                android:id="@+id/name_content_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Use different lines for different ingredients"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="10dp" />
+
+            <TextView
+                android:id="@+id/directions_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_margin="10dp"
+                android:text="Directions:" />
+
+            <EditText
+                android:id="@+id/directions_content_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_margin="10dp"
+                android:lineSpacingExtra="10dp"
+                android:ems="10"
+                android:hint="Put all steps of your recipe"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/save"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Save" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/cancel"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Cancel" />-->
+    <!--</LinearLayout>-->
+
+</android.support.constraint.ConstraintLayout>

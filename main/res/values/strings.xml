@@ -3,16 +3,31 @@
 
     <string name="search">Search</string>
 
-    <string name="login">Login</string>
-    <string name="create">Create</string>
+    // Home Activity
+    <string name="your_recipes">Your Recipes</string>
     <string name="favorite">Favorite</string>
-    <string name="contact">Contact Us</string>
     <string name="about">About</string>
+    <string name="contact">Contact Us</string>
+
+    // Your List Activity
+    <string name="create">Create</string>
+
+    // Create Activity
+    <string name="save">Save</string>
+
+    // S Recipe Activity
+    <string name="add_favorite">Add Favorite</string>
+    <string name="remove_favorite">Remove Favorite</string>
+
+    // U Recipe Activity
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
 
     <string name="title">Title:    </string>
     <string name="author">Author:</string>
     <string name="ingredient">Ingredient:</string>
     <string name="direction">Direction:</string>
+    <string name="reference">Source:</string>
 
     <string name="title_1">Hamburger Steak with Onions and Gravy</string>
     <string name="title_2">Bats and Cobwebs</string>

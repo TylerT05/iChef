@@ -5,4 +5,8 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="theme_color">#006666</color>
+
+    <color name="red_icon_color">#FF4E4E</color>
+    <color name="orange_icon_color">#FF642E</color>
+    <color name="orange_icon_border_color">#FFC246</color>
 </resources>
